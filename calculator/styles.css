@@ -1,0 +1,99 @@
+body{
+    width:500px;
+    margin:4% auto;
+    font-size: 1.8rem;
+}
+
+.calculator{
+    border-radius:  1px;
+    border:3px solid gray;
+    padding: 20px;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+    background-color: #191b28;
+}
+
+.input{
+    border:1.5px solid rgb(165,245,245);
+    border-radius: 1px;
+    height: 65px;
+    padding:10px 0 15px 0;
+    font-size: 2.4rem;
+    text-align: right; 
+    margin-right:6px; 
+    overflow-x: auto; 
+    background-color: #dcdbe1;
+}
+
+.input:hover{
+    border: 1px solid #bbb;
+    box-shadow: inset opx 1px 4px 0px rgba(0,0,0,0.2);
+}
+
+.buttons
+
+.operators div {
+    background-color: lightslategray;
+    cursor: pointer;
+    display: inline-block;
+    border:1px solid lightblue;
+    border-radius: 1px;
+    width:100px;
+    text-align: center;
+    margin :  20px 4px 10px 0;
+}
+.operators div:hover{
+    background-color: #ddd;
+    box-shadow: inset opx 1px 4px 0px rgba(0,0,0,0.2);
+    border-color: #aaa;
+}
+
+.operators div:active{
+    font-weight: bold;
+}
+.leftPanel{
+    display: inline-block;
+}
+.numbers div{
+    background-color: lightslategray;
+    display: inline-block;
+    border:1px solid lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer;
+    width:80px;
+}
+
+.numbers div:hover{
+    background-color: #f1f1f1;
+    box-shadow: inset opx 1px 4px 0px rgba(0,0,0,0.2);
+    border-color: #bbb;
+}
+
+.numbers div:active{
+    font-weight: bold;
+}
+
+div.equals{
+    display: inline-block;
+    margin: 20px 6px 10px 0;
+    border:blueviolet;
+    cursor:pointer;
+    color: #FFF;
+    background-color:#4d90fe;
+    padding: 147px 10px;
+    text-align: center;
+    width:18%;
+    vertical-align:top;
+}
+
+div.equals:hover{
+    background-color: #307cf9;
+    border-color: #1857BB;
+}
+
+.equals:active{
+    font-weight:bold;
+}
